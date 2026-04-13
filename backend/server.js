@@ -12,8 +12,8 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
-// Serve frontend static files
-app.use(express.static(path.join(__dirname, '../frontend')));
+// Serve frontend static files from Vite build
+app.use(express.static(path.join(__dirname, '../frontend/dist')));
 
 // Routes
 app.use('/tasks', taskRoutes);
