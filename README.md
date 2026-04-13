@@ -113,6 +113,5 @@ The React development server will start at `http://localhost:5173`. Open this UR
 
 ## 👨‍💻 Author
 
-**Zaki (zaki391)**  
-B.Tech CSE (Data Science & Analytics)  
-Passionate about Full-Stack Development & AI/ML
+**Zaki**  
+B.Tech CSE
