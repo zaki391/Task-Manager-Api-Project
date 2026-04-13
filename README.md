@@ -6,6 +6,15 @@ This project allows users to efficiently **create, update, manage, and track tas
 
 ---
 
+## 🌐 Live Demo
+
+🔗 **View the Live Application:**
+[https://task-manager-app-inw1.onrender.com/](https://task-manager-app-inw1.onrender.com/)
+
+⚠️ *Note: The server may take 30–50 seconds to respond on the first request as it is hosted on Render's free tier, which sleeps after inactivity.*
+
+---
+
 ## 🧱 Tech Stack
 
 ### Frontend
