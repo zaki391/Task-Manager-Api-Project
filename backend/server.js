@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const path = require('path');
 const taskRoutes = require('./src/routes/taskRoutes');
 const errorHandler = require('./src/middlewares/errorHandler');
 const notFoundHandler = require('./src/middlewares/notFoundHandler');
@@ -10,6 +11,9 @@ const PORT = process.env.PORT || 3000;
 // Middleware
 app.use(cors());
 app.use(express.json());
+
+// Serve frontend static files
+app.use(express.static(path.join(__dirname, '../frontend')));
 
 // Routes
 app.use('/tasks', taskRoutes);
